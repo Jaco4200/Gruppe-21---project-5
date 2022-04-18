@@ -192,6 +192,8 @@ header{
   width: 200px;
   border: solid black 2px;
   background-color: white;
+  margin-top: 200px;
+  margin-left: 133px;
 }
 
 #overlay {
