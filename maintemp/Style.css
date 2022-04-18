@@ -210,3 +210,30 @@ header{
   margin-left: 70px;
   margin-top: 50px;
 }
+
+.nyhedsbillede {
+display: flex;
+height: 250px;
+width: 175px;
+border: solid black 2px;
+margin-left: 223px;
+}
+
+.nyhedstitel {
+color: black;
+}
+
+.nyhedstekst {
+  display: flex;
+  font-size: 1;
+  color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.nyhedsbillede1 {
+display: flex;
+height: 175px;
+width: 200px;
+border: solid black 2px;
+}
