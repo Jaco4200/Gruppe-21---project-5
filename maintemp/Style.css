@@ -188,22 +188,23 @@ header{
 
   .nyhedsboks {
   display: flex;
-  height: 200px;
-  width: 50px;
-  border: solid green 2px;
-  background-color: lightgreen;
+  height: 175px;
+  width: 200px;
+  border: solid black 2px;
+  background-color: white;
 }
 
 #overlay {
   color: white;
   display: none;
-  width: 375px;
-  height: 407px;
+  width: 400px;
+  height: 375px;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #EE7203;
+  border: solid black 2px;
+  background-color: white;
   z-index: 2;
   position: absolute;
   margin-left: 70px;
