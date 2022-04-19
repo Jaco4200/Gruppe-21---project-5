@@ -200,7 +200,7 @@ header{
   color: white;
   display: none;
   width: 400px;
-  height: 375px;
+  height: 325px;
   top: 0;
   left: 0;
   right: 0;
@@ -234,12 +234,11 @@ padding-right: 8px;
   color: black;
   padding-left: 8px;
   padding-right: 8px;
-  margin-right: 100px;
+  width: 212px;
 }
 
 .nyhedsbillede1 {
 display: flex;
 height: 175px;
 width: 200px;
-border: solid black 2px;
 }
