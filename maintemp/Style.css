@@ -1,3 +1,5 @@
+* {box-sizing:border-box}
+
 header{
     background-color: aqua;
     display: flex;
@@ -21,7 +23,6 @@ h1{
   display: flex;
   justify-content: center;
 }
-* {box-sizing:border-box}
 
 .banner-container {
   max-width: 1200px;
@@ -29,7 +30,7 @@ h1{
   margin: auto;
 }
 
-.mySlides {
+.ourSlides {
   display: none;
 }
 
