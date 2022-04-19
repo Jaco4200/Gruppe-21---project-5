@@ -8,14 +8,14 @@ header{
 
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: block;
-  border: 0.5px #333333 solid;
-  background-color: darkkhaki;
+  display: flex;
+  justify-content: center;
+  border-radius:15px;
+  background-color: black;
   width: auto;
-  height: 250px;
-  margin-left: 875px;
+  margin-left: 980px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .dropdown_menu a:hover{
@@ -30,7 +30,7 @@ header{
   width: 150px;
   border-radius: 25px;
   cursor: pointer;
-  margin-left: 900px;
+  margin-left: 980px;
 }
 
 .hide{
