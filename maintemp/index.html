@@ -1,60 +1,44 @@
 <!DOCTYPE html>
  <link rel="stylesheet" href="Style.css">
  <script src="javasc.js" defer></script>
- <script src="hover.js" defer></script>
- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <meta charset="utf-8" href="hcandersenFS">
 <title>H.C Andersen Festspillerne</title>
 <header>
 
   <nav>
-
-    <div class="dropdown">
-      <button class="dropdown_button">Køb billetter</button>
-      <div class="dropdown_menu hide">
-          <a href="#">Forestilling</a>
-          <a href="#">Antal personer</a>
-          <a href="#">Alder</a>
-      </div>
-  </div>
+    <div class="navbar">
+      <a href="Forestilling">Forestilling</a>
+      <a href="Om">Om os</a>
+      <a href="Købbillet">Køb billet</a>
+      <a href="Din kurv">Kurv</a>
+    </div>
  </nav>
 
 </header>
 </head>
 <main>
-   <div class="banner"></div>
+   <div class="banner">
+     <div class="banner-container">
+
+       <div class="mySlides fade">
+         <img src="billeder/hcafs_banner2.jpg" style="width:100%">
+       </div>
+
+       <div class="mySlides fade">
+         <img src="billeder/hcafs_banner1.jpg" style="width:100%">
+       </div>
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+     <br>
+
+     <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+     </div>
+   </div>
    <div class="nyheder">
-
-       <div class="parent">
-       <div class="nyhedsboks" onmouseover="on()">
-         <div id="overlay" onmouseleave="off()">
-    <div class="Nyhedsbillede">
-      <img class="nyhedsbillede" src="billeder/hcafsposternews.png" alt="hcandersenfortniteposter">
-    </div>
-    <div class="nyhedslogo">
-      <img class="nyhedslogo" src="billeder/hcafslogo.png" alt="hcandersenfestspillene">
-    </div>
-
-    <div class="nyhedstitel">
-      <h1>Rolleuddeling</h1>
-
-    </div>
-    <div class="nyhedstekst">
-      <p>I Januar måned var der
-         audition til hyrdinden og
-         skorstensfejeren.
-         I februar måned,
-         fik man svar om man var
-         blandt de ca 50 børn og unge,
-         som skal spille med til sommer.</p>
-    </div>
-
-    <div class="button69">
-      <a href="readmore.html" class="button69">Læs mere...</a>
-    </div>
-   </div>
-   </div>
-   </div>
     <div class="nyhed1"></div>
     <div class="nyhed2"></div>
     <div class="nyhed3"></div>
@@ -90,14 +74,10 @@
         </div>
         <br>
         <!-- The dots/circles -->
-        <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-        defer
-      ></script>
 </main>
 <footer>
     <div class="footergrid">
-        <div id="foot1"></div>
+        <div class="foot1"></div>
         <div class="foot2"></div>
         <div class="foot3"></div>
     </div>
