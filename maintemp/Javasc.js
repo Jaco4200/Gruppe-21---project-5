@@ -36,3 +36,16 @@ function initMap() {
 }
 
 window.initMap = initMap;
+
+const dropdownBtn = document.querySelector(".dropdown_button");
+const dropdownMenu = document.querySelector(".dropdown_menu");
+
+dropdownBtn.addEventListener('click',() => {
+dropdownMenu.classList.toggle('hide');
+})
+
+window.addEventListener("click", (e) => {
+if (e.target !== dropdownBtn) {
+    dropdownMenu.classList.add("hide");
+}
+});

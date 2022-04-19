@@ -16,6 +16,37 @@ a {
   margin-left: 900px;
 }
 
+.dropdown_menu a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  border: 0.5px #333333 solid;
+  background-color: darkkhaki;
+  width: auto;
+  height: 250px;
+  margin-left: 875px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown_menu a:hover{
+  background-color: black;
+  color: white;
+}
+
+.dropdown_button {
+  font-size: 18px;
+  background-color: red;
+  border: none;
+  width: 150px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 900px;
+}
+
+.hide{
+  display: none;
+}
+
 h1{
   display: flex;
   justify-content: center;
