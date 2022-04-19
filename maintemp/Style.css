@@ -247,14 +247,12 @@ img {vertical-align: middle;}
 
 #overlay {
   color: white;
-  display: flex;
-  flex-direction: column;
   width: 400px;
   height: 325px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
-  margin-bottom: 100px;
+
 }
 
 .nyhedsbillede {
