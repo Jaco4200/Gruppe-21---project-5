@@ -6,31 +6,23 @@ header{
     height: 75px;
     width: 100%;
 }
-<<<<<<< Updated upstream
 
 a {
   text-decoration: none;
   color:#000000;
   font-size: 18px;
-<<<<<<< Updated upstream
-
-
+  padding: 20px;
   }
-=======
-  padding: 30px;
-}
 
 .navbar{
   margin-left: 900px;
 }
->>>>>>> Stashed changes
 
-=======
 h1{
   display: flex;
   justify-content: center;
 }
->>>>>>> Stashed changes
+
 .banner {
     width: 100%;
     height: 600px;
