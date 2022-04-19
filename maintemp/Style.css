@@ -2,7 +2,6 @@ header{
     background-color: aqua;
     display: flex;
     align-items: center;
-    border-style: dashed;
     height: 75px;
     width: 100%;
 }
