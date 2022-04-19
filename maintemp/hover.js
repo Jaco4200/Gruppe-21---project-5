@@ -5,5 +5,5 @@ function on() {
 }
 
 function off() {
-  document.getElementById("overlay", "forberedelsespopup", "ekstramaterialepopup").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
 }
