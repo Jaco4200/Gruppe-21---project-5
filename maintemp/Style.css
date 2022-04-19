@@ -231,13 +231,18 @@ img {vertical-align: middle;}
   }
 
   .nyhedsboks {
-  display: flex;
-  height: 175px;
-  width: 200px;
-  border: solid black 2px;
-  background-color: white;
-  margin-top: 200px;
-  margin-left: 133px;
+    grid-area: 1/1/1/1;
+    margin: 50px;
+    margin-left: 200px;
+    display: grid;
+    width: 20%;
+    height: 120px;
+    border: solid black 2px;
+    background-image: url("billeder/hcafsposternews.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+
 }
 
 #overlay {
@@ -282,11 +287,6 @@ width: 212px;
   width: 212px;
 }
 
-.nyhedsbillede1 {
-display: flex;
-height: 175px;
-width: 200px;
-}
 
 .nyhedslogo {
   display: flex;
@@ -304,6 +304,6 @@ width: 200px;
   padding-left: 4px;
   padding-right: 8px;
   color: black;
-  margin-top: -15px;
+  margin-top: -5px;
 
 }
