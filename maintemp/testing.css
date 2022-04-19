@@ -1,6 +1,6 @@
 * {box-sizing:border-box}
 
-.slideshow-container {
+.banner-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -32,16 +32,6 @@
 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 .dot {
