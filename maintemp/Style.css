@@ -85,7 +85,7 @@ h1{
     display: grid;
     width: 20%;
     height: 120px;
-    border-style: dashed;
+    border: solid black 2px;
 }
 .nyhed4 {
     grid-area: 1/4/1/4;
@@ -94,8 +94,7 @@ h1{
     display: grid;
     width: 20%;
     height: 120px;
-    border-style: dashed;
-    border-color: aqua;
+    border: solid black 2px;
 }
 .frivillig {
     border-style: dashed;
