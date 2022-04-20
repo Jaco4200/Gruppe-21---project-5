@@ -153,7 +153,31 @@ h1{
 .buttonman:hover {
   background-color: black;
   color: white;
+}
+.buttonman2 {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
+.buttonman2 {
+background-color: white;
+color: black;
+border: 2px solid black;
+}
+
+.buttonman2:hover {
+background-color: black;
+color: white;
 }
 
 * {
