@@ -6,15 +6,19 @@ header{
     width: 100%;
 }
 
+.navbar_ny {
+  display: block;
+}
+  
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: block;
+  display: flex;
   border: none;
   border-radius: 2px;
   background-color: darkkhaki;
   width: auto;
   height: auto;
-  margin-left: 900px;
+  margin-left: 1200px;
   text-decoration: none;
   color: black;
   text-align: center;
@@ -32,9 +36,8 @@ header{
   width: 150px;
   border-radius: 25px;
   cursor: pointer;
-  margin-left: 1000px;
+  margin-left: 1200px;
   padding: 4px;
-  justify-content: center;
 }
 
 .hide{
