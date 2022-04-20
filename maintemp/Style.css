@@ -141,10 +141,11 @@ img {vertical-align: middle;}
 }
 #foot1 {
     grid-area: 1/1/1/1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0,67em;
     display: grid;
     width: 16%;
     height: 100%;
-    border-style: dashed;
 }
 #map{
   grid-area: 1/1/1/2;
