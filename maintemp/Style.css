@@ -60,6 +60,7 @@ h1{
     display: grid;
     width: 20%;
     height: 120px;
+    border: solid black 2px;
     background-image: url("billeder/hcafsposternews.png");
     background-position: top;
     background-repeat: no-repeat;
