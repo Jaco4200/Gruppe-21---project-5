@@ -289,11 +289,17 @@ img {vertical-align: middle;}
 
 #overlay {
   color: white;
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 325px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
+<<<<<<< HEAD
+=======
+  margin-bottom: 100px;
+>>>>>>> parent of 8edb941 (har prøvet en dl men har nok brug for lidt hjælp :)))
 }
 
 .nyhedsbillede {
