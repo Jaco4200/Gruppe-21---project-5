@@ -324,7 +324,10 @@ footer{
   border: solid black 2px;
   background-color: white;
   position: absolute;
+  display: none;
 }
+
+
 
 .nyhedsbillede {
 display: flex;
@@ -379,7 +382,7 @@ width: 212px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
-
+  display: none;
 }
 
 .nyhedsbillede2 {
@@ -435,6 +438,7 @@ width: 212px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
+  display: none;
 }
 
 .nyhedsbillede3 {
@@ -490,6 +494,7 @@ width: 212px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
+  display: none;
 }
 
 .nyhedsbillede4 {
