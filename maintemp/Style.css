@@ -9,7 +9,7 @@ a {
   text-decoration: none;
   color:#000000;
   font-size: 18px;
-  padding: 20px;  
+  padding: 20px;
   }
 
 .navbar{
@@ -212,30 +212,26 @@ img {vertical-align: middle;}
   }
 
   .nyhedsboks {
-  display: flex;
-  height: 175px;
-  width: 200px;
-  border: solid black 2px;
-  background-color: white;
-  margin-top: 200px;
-  margin-left: 133px;
+    margin: 50px;
+    margin-left: 200px;
+    display: grid;
+    width: 15%;
+    width: 70%;
+    height: 120px;
+    border: solid black 2px;
+    background-image: url("billeder/hcafsposternews.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #overlay {
   color: white;
-  display: none;
   width: 400px;
   height: 325px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   border: solid black 2px;
   background-color: white;
-  z-index: 2;
   position: absolute;
-  margin-left: 70px;
-  margin-top: 50px;
 }
 
 .nyhedsbillede {
@@ -287,9 +283,4 @@ width: 200px;
   color: black;
   margin-top: -15px;
 
-}
-
-.Hoverknap {
-  display: flex;
-  
 }
