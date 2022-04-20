@@ -192,14 +192,6 @@ img {vertical-align: middle;}
     height: 100%;
     border-style: dashed;
 }
-<<<<<<< Updated upstream
-=======
-#map {
-  /* The height is 400 pixels */
-  width: 480px;
-  /* The width is the width of the web page */
-}
->>>>>>> Stashed changes
 .mySlides {
     display: none;
   }
@@ -296,14 +288,7 @@ img {vertical-align: middle;}
   border: solid black 2px;
   background-color: white;
   position: absolute;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   margin-bottom: 100px;
->>>>>>> parent of 8edb941 (har prøvet en dl men har nok brug for lidt hjælp :)))
-=======
-  margin-bottom: 100px;
->>>>>>> parent of 8edb941 (har prøvet en dl men har nok brug for lidt hjælp :)))
 }
 
 .nyhedsbillede {
