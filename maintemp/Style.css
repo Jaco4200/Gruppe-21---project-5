@@ -324,7 +324,6 @@ footer{
   border: solid black 2px;
   background-color: white;
   position: absolute;
-  margin-bottom: 100px;
 }
 
 .nyhedsbillede {
@@ -352,11 +351,6 @@ width: 212px;
   width: 212px;
 }
 
-.nyhedsbillede1 {
-display: flex;
-height: 175px;
-width: 200px;
-}
 
 .nyhedslogo {
   display: flex;
@@ -385,7 +379,7 @@ width: 200px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
-  margin-bottom: 100px;
+
 }
 
 .nyhedsbillede2 {
@@ -441,7 +435,6 @@ width: 212px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
-  margin-bottom: 100px;
 }
 
 .nyhedsbillede3 {
@@ -497,7 +490,6 @@ width: 212px;
   border: solid black 2px;
   background-color: white;
   position: absolute;
-  margin-bottom: 100px;
 }
 
 .nyhedsbillede4 {
