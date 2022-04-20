@@ -8,14 +8,14 @@ header{
 
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  border-radius:15px;
-  background-color: black;
+  display: block;
+  border: 0.5px #333333 solid;
+  background-color: darkkhaki;
   width: auto;
-  margin-left: 980px;
+  height: 250px;
+  margin-left: 875px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .dropdown_menu a:hover{
@@ -25,8 +25,13 @@ header{
 
 .dropdown_button {
   font-size: 18px;
-  padding: 20px;
-  }
+  background-color: red;
+  border: none;
+  width: 150px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 900px;
+}
 
 .navbar{
   margin-left: 900px;
