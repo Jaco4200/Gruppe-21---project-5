@@ -135,7 +135,7 @@ img {vertical-align: middle;}
 #map {
   height: 400px;
   /* The height is 400 pixels */
-  width: 10%;
+  width: 100px;
   /* The width is the width of the web page */
 }
 .mySlides {
