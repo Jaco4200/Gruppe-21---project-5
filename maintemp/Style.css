@@ -36,7 +36,11 @@ header{
 .hide{
   display: none;
 }
-
+.nyhedstitel {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
 h1{
   display: flex;
   justify-content: center;
