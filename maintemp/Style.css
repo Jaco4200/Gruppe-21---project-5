@@ -6,9 +6,24 @@ header{
     width: 100%;
 }
 
-a {
+.dropdown_menu a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  border-radius:15px;
+  background-color: black;
+  width: auto;
+  margin-left: 980px;
   text-decoration: none;
-  color:#000000;
+  color: white;
+}
+
+.dropdown_menu a:hover{
+  background-color: black;
+  color: white;
+}
+
+.dropdown_button {
   font-size: 18px;
   padding: 20px;
   }
