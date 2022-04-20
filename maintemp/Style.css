@@ -131,6 +131,16 @@ h1{
 
 }
 
+.buttonman {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+}
+
 * {box-sizing: border-box;}
 img {vertical-align: middle;}
 .Sponsor {
