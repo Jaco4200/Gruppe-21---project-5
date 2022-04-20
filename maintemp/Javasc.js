@@ -12,7 +12,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3500);
 }
-let array = "<br/>Telefon: 24220956~E-Mail: mail@hcandersenfestspillerne.dk~ Adresse: Kanalvej 154C~ Odense C";
+let array = "<br/> Telefon: 24220956~ E-Mail: mail@hcandersenfestspillerne.dk~ Adresse: Kanalvej 154C~ Odense C";
 
 var quizArray = array.split('~');
 var finalString = quizArray.join('<br/><br/>');
