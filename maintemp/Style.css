@@ -6,6 +6,11 @@ header{
     width: 100%;
 }
 
+.navbar_ny{
+  display: block;
+  margin-left: 20px;
+  padding: 2px;
+}
   
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +20,7 @@ header{
   background-color: darkkhaki;
   width: auto;
   height: auto;
-  margin-left: 1200px;
+  margin-left: 1000px;
   text-decoration: none;
   color: black;
   text-align: center;
@@ -33,7 +38,7 @@ header{
   width: 150px;
   border-radius: 25px;
   cursor: pointer;
-  margin-left: 1200px;
+  margin-left: 1000px;
   padding: 4px;
 }
 
