@@ -19,16 +19,12 @@ var finalString = quizArray.join('<br/><br/>');
 
 document.getElementById('foot1').innerHTML = finalString;
 
-// Initialize and add the map
 function initMap() {
-  // The location of Uluru
   const uluru = { lat: 55.418969064295474, lng: 10.376959240657936 };
-  // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: uluru,
   });
-  // The marker, positioned at Uluru
   const marker = new google.maps.Marker({
     position: uluru,
     map: map,
