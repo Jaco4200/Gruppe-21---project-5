@@ -60,7 +60,10 @@ h1{
     display: grid;
     width: 20%;
     height: 120px;
-    border-style: dashed;
+    background-image: url("billeder/hcafsposternews.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nyhed3 {
     grid-area: 1/3/1/3;
@@ -262,6 +265,61 @@ width: 212px;
 
 
 .button69 {
+  display: flex;
+  font-size: 1;
+  padding-left: 4px;
+  padding-right: 8px;
+  color: black;
+  margin-top: -15px;
+
+}
+
+#overlay2 {
+  color: white;
+  width: 400px;
+  height: 325px;
+  border: solid black 2px;
+  background-color: white;
+  position: absolute;
+}
+
+.nyhedsbillede2 {
+display: flex;
+position: absolute;
+height: 250px;
+width: 175px;
+margin-left: 222px;
+}
+
+.nyhedstitel2 {
+display: flex;
+color: black;
+padding-left: 8px;
+padding-right: 8px;
+width: 212px;
+}
+
+.nyhedstekst2 {
+  display: flex;
+  font-size: 1;
+  color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 212px;
+}
+
+
+.nyhedslogo2 {
+  display: flex;
+  position: absolute;
+  margin-top: 135px;
+  padding-left: 5px;
+  height: 40px;
+  width: 140px;
+}
+
+
+.button692 {
   display: flex;
   font-size: 1;
   padding-left: 4px;
