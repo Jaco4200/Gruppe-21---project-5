@@ -14,15 +14,15 @@ function showSlides() {
 }
 let array = "<br/> Telefon: 24220956~ E-Mail: mail@hcandersenfestspillerne.dk~ Adresse: Kanalvej 154C~ Odense C";
 
-var quizArray = array.split('~');
-var finalString = quizArray.join('<br/><br/>');
+var splitArray = array.split('~');
+var finalString = splitArray.join('<br/><br/>');
 
 document.getElementById('foot1').innerHTML = finalString;
 
 function initMap() {
   const uluru = { lat: 55.418969064295474, lng: 10.376959240657936 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 10,
     center: uluru,
   });
   const marker = new google.maps.Marker({
