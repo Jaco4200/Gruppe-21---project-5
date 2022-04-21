@@ -49,7 +49,7 @@ header{
   border: none;
   width: 150px;
   border-radius: 25px;
-  cursor: pointer;
+  cursor:grab;
   margin-left: 950px;
   padding: 4px;
   text-align: center;
