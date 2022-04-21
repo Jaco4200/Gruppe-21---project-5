@@ -626,3 +626,11 @@ width: 212px;
   margin-top: -10px;
 
 }
+/* -------------------------- Billedegalleri styling ------------------------- */
+
+#billedeboks {
+  width: 100%;
+  height: 800px;
+  border: dashed;
+  
+}
