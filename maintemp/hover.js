@@ -31,3 +31,18 @@ function on4() {
 function off4() {
   document.getElementById("overlay4").style.display = "none";
 }
+
+
+
+function myFunction() {
+  var at = document.getElementById("email").value.indexOf("@");
+
+  if (at == -1) {
+    alert("Not a valid e-mail!");
+    submitOK = "false";
+  }
+
+  if (submitOK == "false") {
+    return false;
+  }
+}
