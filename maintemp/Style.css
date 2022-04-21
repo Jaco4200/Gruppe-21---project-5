@@ -629,9 +629,16 @@ width: 212px;
 /* -------------------------- Billedegalleri styling ------------------------- */
 
 #billedeboks {
-  width: 100%;
+  width: 900px;
   height: 800px;
-  border: dashed;
+}
+
+#titlelle{
+  margin-left: 500px;
+}
+
+.picture4{
+  margin-left: 250px;
 }
 
 .frem, .tilbage {
