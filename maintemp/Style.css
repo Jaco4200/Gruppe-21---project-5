@@ -27,7 +27,6 @@ header{
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  border: none;
   border-radius: 2px;
   background-color: darkkhaki;
   width: auto;
@@ -35,7 +34,7 @@ header{
   margin-left: 950px;
   text-decoration: none;
   color: black;
-  text-align: center;
+  justify-content: space-around;
 }
 
 .dropdown_menu a:hover{
@@ -44,6 +43,7 @@ header{
 }
 
 .dropdown_button {
+  display: flex;
   font-size: 18px;
   background-color: red;
   border: none;
@@ -52,6 +52,8 @@ header{
   cursor: pointer;
   margin-left: 950px;
   padding: 4px;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .hide{
