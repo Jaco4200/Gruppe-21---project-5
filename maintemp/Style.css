@@ -638,9 +638,6 @@ width: 212px;
 
 }
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-
 .mySlides2 {
   display: none
 }
