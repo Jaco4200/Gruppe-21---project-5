@@ -638,15 +638,18 @@ width: 212px;
 
 }
 
-.mySlides2 {
-  display: none
-}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides2 {display: none}
+img {vertical-align: middle;}
+
 
 .slideshow-container2 {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 
 .prev2, .next2 {
   cursor: pointer;
@@ -663,10 +666,12 @@ width: 212px;
   user-select: none;
 }
 
+
 .next2 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 
 .prev2:hover, .next2:hover {
   background-color: rgba(0,0,0,0.8);
@@ -705,8 +710,19 @@ width: 212px;
   background-color: #717171;
 }
 
-
 .fade2{
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev2, .next2,.text2 {font-size: 11px}
+}
+
+
