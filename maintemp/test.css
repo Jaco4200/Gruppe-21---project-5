@@ -41,6 +41,17 @@
   font-size: 20px;
 }
 
+.billeder149 {
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  width: 100%;
+  height: 350px;
+  background-image: url("billeder/hcafsposternews.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
