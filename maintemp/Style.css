@@ -28,9 +28,21 @@ header{
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
-  position: relative;
-  justify-content: flex-start;
+  position:absolute;
+  justify-content: flex-end;
   margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.navbar_ny2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 182px;
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -46,7 +58,7 @@ header{
   height: auto;
   text-decoration: none;
   color: White;
-  margin-left: 900px;
+  margin-left: 850px;
   justify-content: space-between;
 }
 
@@ -56,7 +68,6 @@ header{
 }
 
 .dropdown_button {
-  margin-left: 950px;
   display: flex;
   font-size: 18px;
   justify-content: flex-end;
@@ -65,7 +76,7 @@ header{
   width: 150px;
   border-radius: 25px;
   cursor:grab;
-  margin-left: 950px;
+  margin-left: 850px;
   padding: 4px;
   text-align: center;
   justify-content: space-around;
