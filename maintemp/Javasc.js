@@ -86,7 +86,7 @@ function currentSlide2(y) {
 function showSlides2(y) {
   let x;
   let slides2 = document.getElementsByClassName("mySlides2");
-  let dots2 = document.getElementsByClassName("dots2");
+  let dots2 = document.getElementsByClassName("dot2");
   if (y > slides2.length) {slideIndex2 = 1}    
   if (y < 1) {slideIndex2 = slides2.length}
   for (x = 0; x < slides2.length; x++) {

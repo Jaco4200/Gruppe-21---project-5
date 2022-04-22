@@ -704,7 +704,7 @@ width: 212px;
   top: 0;
 }
 
-.dots2 {
+.dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -723,5 +723,7 @@ width: 212px;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-  .prev2, .next2,.text2 {font-size: 11px}
-}
+  .prev2, .next2,.text2 {
+    font-size: 11px
+  }
+
