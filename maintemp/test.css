@@ -29,6 +29,17 @@
   font-size: 18px;
 }
 
+.navbar_ny2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 182px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 .dropdown_menu a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
