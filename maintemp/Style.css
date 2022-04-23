@@ -5,7 +5,10 @@ header{
     height: 75px;
     width: 100%;
 }
-
+Html, body, main 
+{
+    max-width: 100%;
+ }
 #navigg{
   width: 100%;
   display: flex;
@@ -95,6 +98,7 @@ header{
 }
 
 h1{
+  font-family: 'din-1451-engschrift-regular', sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -174,6 +178,7 @@ h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 7%;
     display: grid;
     width: 300px;
     height: 180px;
@@ -220,7 +225,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
+    margin-right: 25px;
     width: 300px;
     height: 180px;
     border: solid black 2px;
@@ -301,9 +306,9 @@ background-color: black;
 color: white;
 }
 
-* {
+*, h1, h2, h3, p {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 img {vertical-align: middle;}
