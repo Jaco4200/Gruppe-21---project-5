@@ -73,6 +73,7 @@ header{
   font-size: 18px;
   justify-content: flex-end;
   background-color: red;
+  color: white;
   border: none;
   width: 150px;
   border-radius: 25px;
@@ -92,10 +93,12 @@ header{
   align-items:center;
   justify-content: center;
 }
+
 h1{
   display: flex;
   justify-content: center;
 }
+
 h2{
   display: flex;
   color: rgb(26, 25, 25);
@@ -106,7 +109,6 @@ h2{
   height: 30%;
   border-radius: 10%;
   background-color: rgba(255, 255, 255, 0.815)
-
 }
 
 .banner {
@@ -153,6 +155,7 @@ h2{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .nyheder {
     display: grid;
     display: flex;
@@ -164,8 +167,8 @@ h2{
     grid-template-rows: repeat(1);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-
 }
+
 .nyhed1 {
     grid-area: 1/1/1/1;
     display: flex;
@@ -180,6 +183,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .nyhed2 {
     grid-area: 1/2/1/2;
     display: grid;
@@ -194,6 +198,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .nyhed3 {
     grid-area: 1/3/1/3;
     justify-content: center;
@@ -208,6 +213,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .nyhed4 {
     grid-area: 1/4/1/4;
     display: grid;
@@ -223,6 +229,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .frivillig {
     border-top: solid 2px;
     border-bottom: solid 2px;
@@ -232,7 +239,6 @@ h2{
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .frivilligtekst {
@@ -241,7 +247,6 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
   width: 1000px;
-
 }
 
 .buttonman {
@@ -269,6 +274,7 @@ border: 2px solid black;
 background-color: black;
 color: white;
 }
+
 .buttonman2 {
   background-color: black;
   border: none;
@@ -299,6 +305,7 @@ color: white;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 img {vertical-align: middle;}
 .Sponsor {
     position: relative;
@@ -307,9 +314,11 @@ img {vertical-align: middle;}
     height: 300px;
     margin-top: 0px;
 }
+
 footer{
   background-color: rgba(170, 167, 167, 0.548);
 }
+
 .footergrid {
     background-color: rgba(170, 167, 167, 0.548);
     display: grid;
@@ -322,8 +331,8 @@ footer{
     grid-template-rows: repeat(1);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-
 }
+
 #foot1 {
     grid-area: 1/1/1/1;
     font-family: Arial, Helvetica, sans-serif;
@@ -332,13 +341,14 @@ footer{
     width: 17%;
     height: 100%;
 }
+
 #map{
   grid-area: 1/1/1/2;
   display: grid;
   height: 300px;
   width: 17%;
-
 }
+
 .foot2 {
     grid-area: 1/3/1/4;
     display: grid;
@@ -350,26 +360,26 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .foot3 {
     grid-area: 1/5/1/6;
     display: grid;
     width: 33%;
     height: 100%;
-
 }
+
 .nyhedsbrevtekst {
     font-size: 1;
     color: black;
     padding-left: 100px;
     padding-right: 8px;
-
-
 }
+
 .emailboks {
     padding-left: 50px;
     border-radius: 5px;
-
 }
+
 .mySlides {
     display: none;
   }
@@ -389,12 +399,10 @@ footer{
     user-select: none;
   }
 
-
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-
 
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
