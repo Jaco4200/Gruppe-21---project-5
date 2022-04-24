@@ -35,11 +35,14 @@ function off4() {
 
 
 function myFunction() {
-  var at = document.getElementById("email").value.indexOf("@");
+  let at = document.getElementById("email").value.indexOf("@");
 
   if (at == -1) {
-    alert("Not a valid e-mail!");
+    alert("e-mail ikke korrekt!");
     submitOK = "false";
+  }
+  else {
+    alert("korrekt e-mail")
   }
 
   if (submitOK == "false") {
