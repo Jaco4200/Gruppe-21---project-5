@@ -327,7 +327,6 @@ footer{
     display: flex;
     border-top: solid;
     width: 100%;
-    margin: none;
     height: 300px;
     grid-template-columns: repeat(6);
     grid-template-rows: repeat(1);
@@ -338,7 +337,6 @@ footer{
 #foot1 {
     grid-area: 1/1/1/1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0,67em;
     display: grid;
     width: 17%;
     height: 100%;
@@ -371,7 +369,6 @@ footer{
 }
 
 .nyhedsbrevtekst {
-    font-size: 1;
     color: black;
     padding-left: 100px;
     padding-right: 8px;
@@ -482,7 +479,6 @@ width: 212px;
 
 .nyhedstekst {
   display: flex;
-  font-size: 1;
   color: black;
   padding-left: 8px;
   padding-right: 8px;
@@ -500,7 +496,6 @@ width: 212px;
 
 .button69 {
   display: flex;
-  font-size: 1;
   padding-left: 4px;
   padding-right: 8px;
   color: black;
@@ -538,7 +533,6 @@ width: 212px;
 .nyhedstekst2 {
   display: flex;
   margin-top: -20px;
-  font-size: 1;
   color: black;
   padding-left: 8px;
   padding-right: 8px;
@@ -556,7 +550,6 @@ width: 212px;
 
 .button692 {
   display: flex;
-  font-size: 1;
   padding-left: 4px;
   padding-right: 8px;
   color: black;
@@ -593,7 +586,6 @@ width: 212px;
 .nyhedstekst3 {
   display: flex;
   margin-top: -20px;
-  font-size: 1;
   color: black;
   padding-left: 8px;
   padding-right: 8px;
@@ -611,7 +603,6 @@ width: 212px;
 
 .button693 {
   display: flex;
-  font-size: 1;
   padding-left: 4px;
   padding-right: 8px;
   color: black;
@@ -648,7 +639,6 @@ width: 212px;
 .nyhedstekst4 {
   display: flex;
   margin-top: -20px;
-  font-size: 1;
   color: black;
   padding-left: 8px;
   padding-right: 8px;
@@ -666,7 +656,6 @@ width: 212px;
 
 .button694 {
   display: flex;
-  font-size: 1;
   padding-left: 4px;
   padding-right: 8px;
   color: black;
